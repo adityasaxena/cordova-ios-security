@@ -14,10 +14,7 @@
 
     <platform name="ios">
         <config-file target="*-Info.plist" parent="NSAppTransportSecurity">
-            <dict>
-                <key>$KEY</key>
-                <true/>
-            </dict>
+            <string>$KEY</string>
         </config-file>
     </platform>
 
